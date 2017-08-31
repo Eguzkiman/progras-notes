@@ -1,0 +1,19 @@
+Tipos de datos en Python:
+
+Integer:
+	Números enteros, eg. 5, 81, 1337
+	La división de números enteros siempre da otro número entero
+		eg. 10/3 -> 3
+
+Float:
+	Números decimales, eg. 5.3, 3.0, 17.01481
+	La división de números flotantes (o enteros entre flotantes, o flotantes entre enteros) da siempre otro número flotante
+		eg. 10.0/3 -> 3.3333333333333335
+
+String:
+	Texto o caracteres, se escribe con comillas simples o dobles.
+		eg. "Eguzki", '1337'
+
+Boolean:
+	Verdaddero o falso, eg. True, False
+	Es el resultado de comparaciones, y normalmente se usa en condicionales

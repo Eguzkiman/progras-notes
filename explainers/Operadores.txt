@@ -1,0 +1,33 @@
+Operadores aritméticos:
+
++ (Suma):
+	Suma dos números o concatena dos strings
+		eg. 5.1, + 7 -> 12.1
+		eg. 'Eguzki' + " is awesome" -> "Eguzki is awesome"
+
+- (Resta):
+	Resta dos números
+		eg. 5 - 7 -> -2
+	No puede usarse entre strings
+		eg. 'Eguzki' - 'ki' -> error
+
+/ (División):
+	Divide dos números
+		eg. 10 / 3 -> 3
+		eg. 10.0 / 3 -> 3.3333333333333335
+
+* (Multiplicación)
+	Multiplica dos números
+		eg. 1337 * 2 -> 2674
+
+Operadores lógicos:
+
+== (Comparación)
+	Compara si dos valores son iguales
+
+<, >, >=, <= (Menor qué, Mayor qué, mayor o igual qué, menor o igual qué)
+	Creo que se entiende...
+
+!= (Diferente a)
+	Compara si dos valores son diferentes
+

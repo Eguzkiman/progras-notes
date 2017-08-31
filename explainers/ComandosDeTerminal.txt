@@ -1,0 +1,53 @@
+Comandos de terminal:
+
+pwd (Print Working Directory):
+	-> pwd
+	Imprime la dirección completa de la carpeta actual
+
+ls (List):
+	-> ls
+	Muestra todos los archivos y carpetas dentro de la carpeta actual
+
+cd (Change Directory):
+	-> cd <nombre-de-una-carpeta>
+	Cambia la carpeta actual a una nueva carpeta. Por ejemplo, si tu carpeta actual es Users/Me, si haces 'cd Documents', tu carpeta actual cambiará a Users/Me/Documents.
+
+	-> cd ..
+	Salir de la carpeta actual.
+
+cat (concatenate):
+	-> cat <nombre-de-un-archivo>
+	Muestra el contenido de un archivo
+
+touch (touch):
+	-> touch <nombre-de-un-nuevo-archivo>
+	Crea un archivo con este nombre
+
+mkdir (Make Directory):
+	mkdir <nombre-de-la-carpeta>
+	Crea una carpeta con este nombre
+
+rm (remove):
+	-> rm <nombre-de-un-archivo>
+	Elimina un archivo
+
+	rm -rf <nombre-de-una-carpeta>
+	Elimina una carpeta y su contenido
+
+python (python...):
+	-> python <nombre-de-un-archivo>.py
+	Ejecuta un archivo .python
+
+Shortcuts:
+
+cmd + K (Clear):
+	Limpia el texto de la terminal
+
+Arrow Up:
+	Escribe el último comando que ejecutaste
+
+Arrow Down:
+	Escribe el siguiente comando que ejecutaste
+
+Ctrl + C:
+	Detén un proceso (Puedes detener scripts de python, por ejemplo)
