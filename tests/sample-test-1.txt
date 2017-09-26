@@ -1,0 +1,147 @@
+1) Very insecure login
+----------------------
+
+Escribe un programa que reciba un nombre de usuario y una contraseña, revise si el usuario se encuentra en la lista de usuarios y su contraseña es correcta. La lista de usuarios es la siguiente:
+
+	username: Eguzki
+	password: thisismypasswordxd
+
+	username: J.Johnson
+	password: 1337h4x0r2
+
+	username: alexandra_alexander
+	password: pass123
+
+Ejemplo:
+
+	pc => Dime tu nombre de usuario:
+	user => Eguzki
+	pc => Escribe tu contraseña:
+	user => thisismypasswordxd
+	pc => Iniciando sesión...
+	pc => Bienvenido Eguzkiman
+
+Ejemplo 2:
+
+	pc => Dime tu nombre de usuario:
+	user => Eguski
+	pc => Escribe tu contraseña:
+	user => thisismypasswordxd
+	pc => Iniciando sesión...
+	pc => Nombre de usuario incorrecto :(
+
+2) Fizzbuzz
+-----------
+
+Escribe un programa que, por cada número del 1 al 1,000,000, haga lo siguiente:
+Si el número es múltiplo de 3, escribe 'Fizz!'
+Si el número es múltiplo de 5, escribe 'Buzz!'
+Si el número es múltiplo de 3 y de 5, escribe 'FizzBuzz!'
+Si el número no es múltiplo ni de 3 ni de 5, escribe el número.
+
+Ejemplo:
+
+	1
+	2
+	Fizz!
+	4
+	Buzz!
+	Fizz!
+	...
+	14
+	FizzBuzz!
+	16
+	...
+
+3) Prime numbers mothertruckers
+-------------------------------
+
+Escribe un programa que reciba un número, e imprima en consola si es primo o no.
+
+Ejemplo:
+
+	pc => Dime un número:
+	user => 7
+	pc => Tu número es primo :v
+
+Ejemplo 2:
+
+	pc => Dime un número
+	user => 12
+	pc => Tu número no es primo :v
+
+4) Text in a box
+----------------
+
+Escribe un programa que reciba un texto, y lo imprima en consola en una caja de asteriscos, con una palabra por línea.
+
+Ejemplo: 
+
+	pc => Escribe tu texto:
+	user => Eguzki es el mejor
+	pc =>
+
+	**********
+	* Eguzki *
+	* es     *
+	* el     *
+	* mejor  *
+	**********
+
+5) Pig Latin
+------------
+Escribe un programa que recibe un texto, y lo traduce a Pig Latin.
+
+Ejemplo: 
+
+	pc => "Dime qué quieres traducir a Pig Latin:"
+	user => Eguzki es el mejor xd :v
+	pc => Eguzkipy espy elpy mejorpy xdpy :vpy
+
+6) Point in a box
+-----------------
+Escribe un programa que reciba las coordenadas de dos esquinas de un cuadrado en el plano cartesiano, las coordenadas de un punto en el mismo plano y que escriba en consola si el punto está dentro, fuera, o en el borde del cuadrado.
+
+Ejemplo:
+
+	pc => Dime la coordenada en x del primer punto del cuadrado:
+	user => 3
+	pc => Dime la coordenada en y del primer punto del cuadrado:
+	user => 3
+	pc => Dime la coordenada en x del segundo punto del cuadrado:
+	user => 7
+	pc => Dime la coordenada en y del segundo punto del cuadrado:
+	user => 7
+	pc => Dime la coordenada en x del punto:
+	user => 8
+	pc => Dime la coordenada en y del punto:
+	user => 3
+
+	pc => El punto está fuera del cuadrado
+
+
+7) Tic Tac Toe
+--------------
+Haz un juego de gato. El jugador debe ingresar sus tiradas mediante coordenadas, la PC debe tirar en casillas random
+
+Ejemplo:
+
+	pc =>
+	  |   |  
+	---------
+	  |   |  
+	---------
+	  |   |  
+
+	pc => Ingresa la coordenada en x:
+	user => 1
+	pc => Ingresa la coordenada en y:
+	user => 2
+
+	  | o |  
+	---------
+	  |   | x 
+	---------
+	  |   |  
+
+	...
