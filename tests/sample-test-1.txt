@@ -30,8 +30,8 @@ Ejemplo 2:
 	pc => Iniciando sesión...
 	pc => Nombre de usuario incorrecto :(
 
-2) Fizzbuzz
------------
+2) FizzBuzz!
+------------
 
 Escribe un programa que, por cada número del 1 al 1,000,000, haga lo siguiente:
 Si el número es múltiplo de 3, escribe 'Fizz!'
@@ -53,8 +53,8 @@ Ejemplo:
 	16
 	...
 
-3) Prime numbers mothertruckers
--------------------------------
+3) Prime numberz
+----------------
 
 Escribe un programa que reciba un número, e imprima en consola si es primo o no.
 
@@ -90,6 +90,7 @@ Ejemplo:
 
 5) Pig Latin
 ------------
+
 Escribe un programa que recibe un texto, y lo traduce a Pig Latin.
 
 Ejemplo: 
@@ -100,6 +101,7 @@ Ejemplo:
 
 6) Point in a box
 -----------------
+
 Escribe un programa que reciba las coordenadas de dos esquinas de un cuadrado en el plano cartesiano, las coordenadas de un punto en el mismo plano y que escriba en consola si el punto está dentro, fuera, o en el borde del cuadrado.
 
 Ejemplo:
@@ -117,11 +119,12 @@ Ejemplo:
 	pc => Dime la coordenada en y del punto:
 	user => 3
 
-	pc => El punto está fuera del cuadrado
+	pc => El punto está fuera del cuadrado :c
 
 
 7) Tic Tac Toe
 --------------
+
 Haz un juego de gato. El jugador debe ingresar sus tiradas mediante coordenadas, la PC debe tirar en casillas random
 
 Ejemplo:
