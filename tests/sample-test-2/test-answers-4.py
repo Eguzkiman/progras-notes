@@ -1,48 +1,4 @@
-1) Classic Fibonacci
---------------------
-
-Escribe un programa que imprima en consola los primeros 30 números de la secuencia de Fibonacci. (Cada número de la secuencia es igual a la suma de los dos números anteriores, empezando en 0 y 1)
-
-	Ejemplo:
-
-	pc => 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
-
-2) Fahrenwat?
--------------
-
-Escribe un programa que reciba una temperatura en grados Celsius y la convierta a Fahrenheit. 
-
-La fórmla para convertir de grados celsius a Fahrenheit es: F = C × 1.8 + 32)
-
-	Ejemplo:
-
-	pc => Dime una temperatura en Celsius:
-	user = 100
-	pc => 100 grados Celcius son 212 grados Fahrenheit (:
-
-3) Dramatic Strings
--------------------
-
-Escribe un programa que reciba una palabra, y la escriba de la siguiente forma:
-
-	Ejemplo 1:
-
-	pc => Dime una palabra
-	user => Code
-	pc => CCoCodCode
-
-	Ejemplo 2:
-
-	pc => Dime una palabra
-	user => Eguzki
-	pc => EEgEguEguzEguzkEguzki
-
-4) Python Fortune Teller
-------------------------
-
-Escribe un programa que reciba el signo zodiacal del usuario y de su pareja, y en base a ello determine su índice astral de compatibilidad. Usa la siguiente tabla:
-
-{
+compatibilities = {
   "Virgo": {
     "Virgo": 10,
     "Cancer": 7,
@@ -213,23 +169,8 @@ Escribe un programa que reciba el signo zodiacal del usuario y de su pareja, y e
   }
 }
 
-	Ejemplo 1:
+your_sign = raw_input('Dime tu signo zodiacal: ')
+your_partners_sign = raw_input('Dime el signo zodiacal de tu pareja: ')
 
-	pc => Dime tu signo zodiacal
-	user => Sagitario
-	pc => Dime el signo zodiacal de tu pareja
-	user = Acuario
-	pc => Calculando su compatibilidad astral...
-	pc => Su compatibilidad es de 10!
-
-	Ejemplo 2:
-
-	pc => Dime tu signo zodiacal
-	user => Capricornio
-	pc => Dime el signo zodiacal de tu pareja
-	user = Sagitario
-	pc => Calculando su índice de compatibilidad astral...
-	pc => Su compatibilidad es de 4 :c
-
-	HINT:
-	La lista tiene formato de diccionario, puedes copiarla y pegarla en tu código ;)
+compatibility = compatibilities[your_sign][your_partners_sign]
+print 'Su compatibilidad es de ' + str(compatibility) + '!'
