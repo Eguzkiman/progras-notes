@@ -1,0 +1,235 @@
+1) Classic Fibonacci
+--------------------
+
+Escribe un programa que imprima en consola los primeros 30 números de la secuencia de Fibonacci. (Cada número de la secuencia es igual a la suma de los dos números anteriores, empezando en 0 y 1)
+
+	Ejemplo:
+
+	pc => 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+
+2) Fahrenwat?
+-------------
+
+Escribe un programa que reciba una temperatura en grados Celsius y la convierta a Fahrenheit. 
+
+La fórmla para convertir de grados celsius a Fahrenheit es: F = C × 1.8 + 32)
+
+	Ejemplo:
+
+	pc => Dime una temperatura en Celsius:
+	user = 100
+	pc => 100 grados Celcius son 212 grados Fahrenheit (:
+
+3) Dramatic Strings
+-------------------
+
+Escribe un programa que reciba una palabra, y la escriba de la siguiente forma:
+
+	Ejemplo 1:
+
+	pc => Dime una palabra
+	user => Code
+	pc => CCoCodCode
+
+	Ejemplo 2:
+
+	pc => Dime una palabra
+	user => Eguzki
+	pc => EEgEguEguzEguzkEguzki
+
+4) Python Fortune Teller
+------------------------
+
+Escribe un programa que reciba el signo zodiacal del usuario y de su pareja, y en base a ello determine su índice astral de compatibilidad. Usa la siguiente tabla:
+
+{
+  "Virgo": {
+    "Virgo": 10,
+    "Cancer": 7,
+    "Geminis": 2,
+    "Piscis": 6,
+    "Leo": 10,
+    "Sagitario": 2,
+    "Libra": 4,
+    "Tauro": 7,
+    "Aries": 8,
+    "Escorpio": 2,
+    "Capricornio": 2,
+    "Acuario": 4
+  },
+  "Cancer": {
+    "Virgo": 7,
+    "Cancer": 9,
+    "Geminis": 0,
+    "Piscis": 0,
+    "Leo": 5,
+    "Sagitario": 7,
+    "Libra": 7,
+    "Tauro": 8,
+    "Aries": 7,
+    "Escorpio": 5,
+    "Capricornio": 3,
+    "Acuario": 6
+  },
+  "Geminis": {
+    "Virgo": 6,
+    "Cancer": 6,
+    "Geminis": 7,
+    "Piscis": 10,
+    "Leo": 0,
+    "Sagitario": 8,
+    "Libra": 1,
+    "Tauro": 3,
+    "Aries": 0,
+    "Escorpio": 7,
+    "Capricornio": 0,
+    "Acuario": 5
+  },
+  "Piscis": {
+    "Virgo": 2,
+    "Cancer": 3,
+    "Geminis": 9,
+    "Piscis": 8,
+    "Leo": 4,
+    "Sagitario": 6,
+    "Libra": 8,
+    "Tauro": 2,
+    "Aries": 2,
+    "Escorpio": 5,
+    "Capricornio": 7,
+    "Acuario": 0
+  },
+  "Leo": {
+    "Virgo": 4,
+    "Cancer": 4,
+    "Geminis": 1,
+    "Piscis": 7,
+    "Leo": 5,
+    "Sagitario": 4,
+    "Libra": 3,
+    "Tauro": 5,
+    "Aries": 3,
+    "Escorpio": 7,
+    "Capricornio": 4,
+    "Acuario": 7
+  },
+  "Sagitario": {
+    "Virgo": 4,
+    "Cancer": 4,
+    "Geminis": 0,
+    "Piscis": 8,
+    "Leo": 6,
+    "Sagitario": 1,
+    "Libra": 6,
+    "Tauro": 7,
+    "Aries": 2,
+    "Escorpio": 7,
+    "Capricornio": 0,
+    "Acuario": 10
+  },
+  "Libra": {
+    "Virgo": 6,
+    "Cancer": 2,
+    "Geminis": 4,
+    "Piscis": 5,
+    "Leo": 5,
+    "Sagitario": 8,
+    "Libra": 6,
+    "Tauro": 3,
+    "Aries": 10,
+    "Escorpio": 9,
+    "Capricornio": 6,
+    "Acuario": 2
+  },
+  "Tauro": {
+    "Virgo": 5,
+    "Cancer": 5,
+    "Geminis": 10,
+    "Piscis": 5,
+    "Leo": 6,
+    "Sagitario": 7,
+    "Libra": 4,
+    "Tauro": 3,
+    "Aries": 7,
+    "Escorpio": 7,
+    "Capricornio": 6,
+    "Acuario": 10
+  },
+  "Aries": {
+    "Virgo": 7,
+    "Cancer": 5,
+    "Geminis": 2,
+    "Piscis": 10,
+    "Leo": 10,
+    "Sagitario": 0,
+    "Libra": 7,
+    "Tauro": 9,
+    "Aries": 5,
+    "Escorpio": 3,
+    "Capricornio": 7,
+    "Acuario": 10
+  },
+  "Escorpio": {
+    "Virgo": 5,
+    "Cancer": 1,
+    "Geminis": 7,
+    "Piscis": 2,
+    "Leo": 4,
+    "Sagitario": 0,
+    "Libra": 3,
+    "Tauro": 2,
+    "Aries": 6,
+    "Escorpio": 5,
+    "Capricornio": 3,
+    "Acuario": 4
+  },
+  "Capricornio": {
+    "Virgo": 5,
+    "Cancer": 10,
+    "Geminis": 3,
+    "Piscis": 0,
+    "Leo": 5,
+    "Sagitario": 4,
+    "Libra": 10,
+    "Tauro": 10,
+    "Aries": 7,
+    "Escorpio": 9,
+    "Capricornio": 1,
+    "Acuario": 10
+  },
+  "Acuario": {
+    "Virgo": 5,
+    "Cancer": 0,
+    "Geminis": 6,
+    "Piscis": 8,
+    "Leo": 10,
+    "Sagitario": 4,
+    "Libra": 7,
+    "Tauro": 6,
+    "Aries": 5,
+    "Escorpio": 6,
+    "Capricornio": 1,
+    "Acuario": 4
+  }
+}
+
+	Ejemplo 1:
+
+	pc => Dime tu signo zodiacal
+	user => Sagitario
+	pc => Dime el signo zodiacal de tu pareja
+	user = Acuario
+	pc => Calculando su compatibilidad astral...
+	pc => Su compatibilidad es de 10!
+
+	Ejemplo 2:
+
+	pc => Dime tu signo zodiacal
+	user => Capricornio
+	pc => Dime el signo zodiacal de tu pareja
+	user = Sagitario
+	pc => Calculando su índice de compatibilidad astral...
+	pc => Su compatibilidad es de 4 :/
+
+	HINT:
+	La lista tiene formato de diccionario, puedes copiarla y pegarla en tu código ;)
