@@ -1,0 +1,114 @@
+1) Crees en el Horóscopo?
+-------------------------
+Valor: 20 puntos
+
+Escribe un programa que reciba una fecha de nacimiento y regrese el signo zodiacal al que pertenece.
+
+Ejemplo 1:
+
+pc => Dime tu fecha de nacimiento
+user => 7 de Marzo
+pc => Eres Piscis
+
+pc => Dime tu fecha de nacimiento
+user => 7 de Enero
+pc => Eres Capricornio
+
+2) FizzBuzz!
+------------
+Valor: 20 puntos
+
+Escribe un programa que, por cada número del 1 al 1,000,000, haga lo siguiente:
+Si el número es múltiplo de 3, escribe 'Fizz!'
+Si el número es múltiplo de 5, escribe 'Buzz!'
+Si el número es múltiplo de 3 y de 5, escribe 'FizzBuzz!'
+Si el número no es múltiplo ni de 3 ni de 5, escribe el número.
+
+Ejemplo:
+
+	1
+	2
+	Fizz!
+	4
+	Buzz!
+	Fizz!
+	...
+	14
+	FizzBuzz!
+	16
+	...
+
+3) Prime numberz
+----------------
+Valor: 20 puntos
+
+Escribe un programa que reciba un número, e imprima en consola si es primo o no.
+
+	Ejemplo:
+
+	pc => Dime un número:
+	user => 7
+	pc => Tu número es primo :v
+
+	Ejemplo 2:
+
+	pc => Dime un número
+	user => 12
+	pc => Tu número no es primo :v
+
+4) Classic Factorial
+--------------------
+Valor: 20 puntos
+
+Escribe un programa que reciba un número e imprima su factorial.
+
+	Ejemplo:
+
+	pc => Dime un número
+	user => 15
+	pc => El factorial de 15 es 1307674368000
+
+	HINT: Puedes consultar como se calcula un factorial aquí:
+	https://en.wikipedia.org/wiki/Factorial
+
+
+5) Leap yearz
+-------------
+Valor: 20 puntos
+
+Escribe un programa que imprima los siguientes 2000 años bisiestos
+
+	Ejemplo 1:
+	2020, 2024 ... 2096, 2104, ...
+
+
+	HINT: Nota que 2100 no es año bisiesto, puedes ver las reglas aquí:
+	https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto
+
+BONUS) Omg hay un bonus yay. 
+----------------------------
+Valor: 110 puntos omg
+
+Haz un juego de gato. El jugador debe ingresar sus tiradas mediante coordenadas, la PC debe tirar en casillas random
+
+Ejemplo:
+
+	pc =>
+	  |   |  
+	---------
+	  |   |  
+	---------
+	  |   |  
+
+	pc => Ingresa la coordenada en x:
+	user => 1
+	pc => Ingresa la coordenada en y:
+	user => 2
+
+	  | o |  
+	---------
+	  |   | x 
+	---------
+	  |   |  
+
+	...
